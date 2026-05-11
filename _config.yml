@@ -1,8 +1,8 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Docs for The Typology of Decision-Making Tasks for Visualization
+description: A website containing everything you need to know about the typology and many maaaany examples.
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://kamibrumi.github.io/typology
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+# aux_links:
+#   Template Repository: https://github.com/just-the-docs/just-the-docs-template
