@@ -10,7 +10,7 @@ This tutorial introduces a hands-on method for applying the Typology of Decision
 
 The tutorial is based on the proposal “From Decisions to Designs: A Hands-On Tutorial with the Typology of Decision-Making Tasks.” The proposal describes a practical workshop in which participants learn to model decision problems using the three typology tasks—choose, activate, and create—and then translate those models into visualization design sketches.
 
-[Link to Tutorial Proposal](/files/tutorial-crc.pdf){: .btn .btn-purple }
+[Link to Tutorial Proposal](files/tutorial-crc.pdf){: .btn .btn-purple }
 
 <hr>
 
