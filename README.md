@@ -1,3 +1,9 @@
+# for local testing
+```
+bundle _2.5.9_ exec jekyll serve
+bundle _2.5.9_ exec jekyll serve --port 4001 --livereload-port 35730
+```
+
 # just-the-docs-template
 
 This is a *bare-minimum* template to create a [Jekyll] site that:
