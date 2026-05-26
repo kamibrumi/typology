@@ -2,7 +2,7 @@
 title: Designing for XXX
 layout: default
 parent: Designing with the Typology
-nav_order: 2
+nav_order: 7
 ---
 
 # Designing for XXX

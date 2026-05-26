@@ -1,0 +1,9 @@
+Attribute,Description
+Cost,Estimated manufacturing cost
+Weight,Total weight of the satellite
+Modularity %,Hardware upgradeability and extensibility
+Load Capacity,Payload capacity of the satellite
+Life Expectancy,Expected operational lifespan in space
+Upgradeability,Ability to remotely update or replace components
+Shielding,Protection against radiation and space debris
+Mobility,Ability to move autonomously in orbit

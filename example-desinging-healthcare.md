@@ -2,7 +2,7 @@
 title: Designing for Healthcare
 layout: default
 parent: Designing with the Typology
-nav_order: 1
+nav_order: 6
 ---
 
 # Designing for Healthcare
