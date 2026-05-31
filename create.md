@@ -44,26 +44,10 @@ Use a **create** task when:
 
 <hr>
 
-## Design implications
+## Home-buying Example
 
-**Create** tasks often require support for generation, synthesis, annotation, transformation, or explanation.
+In a homebuying scenario, the system can create new decision support artifacts from the listing data.
 
-Useful design patterns include:
+For example, it may generate a shortlist of candidate homes, derive monthly payment estimates, calculate commute or school-fit scores, or assemble neighborhood summaries from raw listing information.
 
-- annotation tools;
-- report builders;
-- simulation panels;
-- generative design controls;
-- feature extraction views;
-- recommendation panels;
-- insight capture tools;
-- notebooks or provenance trails;
-- machine-learning explanation views.
-
-<hr>
-
-## Example
-
-In **EmbryoProfiler**, machine learning models **create** clinically interpretable features from time-lapse microscopy images. The system automatically annotates embryo morphology, developmental timings, and other grading features, which clinicians can inspect and correct.
-
-These generated features then support later **activate** and **choose** decisions.
+This is a **create** task because the output is not simply a filtered subset of the input. The workflow produces new information that helps the buyer reason about the homes under consideration.

@@ -44,24 +44,11 @@ Use a **choose** task when:
 
 <hr>
 
-## Design Implications
+## Home-buying Example
 
-**Choose** tasks often require visual support for comparison.
+In a homebuying scenario, the buyer compares a shortlist of homes and chooses the one that offers the best overall fit.
 
-Useful design patterns include:
+The decision depends on tradeoffs among price, location, size, commute time, neighborhood quality, and renovation effort. The selected home does not have to satisfy every ideal preference. It just needs to be the best choice among the available alternatives.
 
-- ranked lists;
-- comparison tables;
-- side-by-side views;
-- scorecards;
-- multi-criteria comparison panels;
-- summary dashboards;
-- selected/final candidate views.
+This is a **choose** task because the output is a fixed selection from a set of candidate options.
 
-<hr>
-
-## Example
-
-In **EmbryoProfiler**, the final IVF decision is a **choose** task: clinicians compare embryos and select the best embryo for transfer, while deciding which others to freeze or avoid.
-
-The paper describes this final comparison stage as selecting optimal candidates based on viability scores and prior grading steps.

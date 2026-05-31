@@ -26,6 +26,7 @@ Use this typology when you want to:
 * identify missing support in an existing design;
 * structure a visualization workflow before sketching the interface;
 * compare decision-support systems across domains;
-* translate a complex decision problem into a sequence of visualization design requirements.
+* translate a complex decision problem into a workflow of user decisions;
+* evaluate decision-support systems based on their alignment with the decision workflows.
 
 The typology is especially useful because it is domain-agnostic. It can describe decision-making in healthcare, engineering, policy, finance, scientific discovery, urban planning, and many other areas. The same three tasks can describe decisions made by humans, algorithms, or human-AI systems.

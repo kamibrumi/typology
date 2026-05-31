@@ -29,13 +29,19 @@ Classify these intermediate decisions as **choose**, **activate**, or **create**
 
 The goal is not to force every activity into a perfect category. The goal is to make the reasoning structure visible enough to discuss, revise, and eventually design around.
 
-## Homebuying Example
+## Home-buying Example
 The final choice depends on several smaller decisions. Buyers cannot choose a home directly from the full listing set without first creating, evaluating, and narrowing the option space.
 
-A possible subdecisions are:
-- Create a shortlist of candidate homes
-- Create additional attributes and estimates
-- Filter feasible homes
-- Activate buyer-acceptable homes
-- Choose final home
+Possible subdecisions are:
+
+| Decision Task | Decision Description |
+| --- | --- |
+| **Create** | Create affordability and reachability estimates (deriving new features) |
+| **Create** | Create new ideal homes (or list of characteristics) by putting together features from different homes |
+| **Activate** | Filter out homes that violate hard constraints (affortability) |
+| **Activate** | Filter out homes that violate soft constraints (distance to work, number of bathrooms) |
+| **Create** | Generate shortlist of candidates based on subjective criteria (perceived beauty of the surrounding area) |
+| **Choose** | Select the final home |
+
+These mapped decisions become the workflow in the next step.
 

@@ -2,7 +2,7 @@
 title: Step 5 - Reflection
 layout: default
 parent: Designing with the Typology
-nav_order: 6
+nav_order: 7
 ---
 
 ## Step 5: Reflection
@@ -17,10 +17,10 @@ Ask:
 - Are loops and revisions supported?
 - Does the interface preserve expert judgment?
 - Does the design help the user explain the final decision?
-- 
+  
 This step helps participants avoid designing attractive but poorly aligned visualization systems.
 
-## Homebuying Example
+## Home-buying Example
 When designing the homebuying decision-support tool, ask:
 
 - What is the final decision the buyer needs to make?
@@ -34,6 +34,8 @@ When designing the homebuying decision-support tool, ask:
 - How should household disagreement be represented?
 - Where should the interface support revising criteria or regenerating options?
 - What evidence should be saved to justify the final decision?
+
+---
 
 ## Summary
 The collaborative homebuying example illustrates how the typology can guide visualization design after problem formulation.

@@ -19,66 +19,50 @@ Use arrows to show flow.
 
 This step helps participants see that decision-support tools are not only about showing data. They also need to support transitions between decision stages.
 
-## Homebuying Example
-The decision process is unlikely to be linear. Buyers may discover that no existing home satisfies all constraints, or that the most feasible homes fail to satisfy important preferences.
+## Home-buying Example
+The decisions mapped in Step 2 can be turned into a workflow. The workflow is not just a linear sequence; it also includes loops when the option set is too small or when the buyer’s criteria need to be revised.
 
-This means the interface should support iteration.
+Below are some example workflows:
 
-For example:
+### Simple workflow
 
-```text
-Generate home candidates
-  ↓
-Estimate affordability and fit
-  ↓
-Filter by constraints
-  ↓
-Compare tradeoffs
-  ↓
-Revise criteria or generate new homes
-  ↺
-```
+![homebuying1](img/homebuying1.png)
 
-### Example Loops
+- In the home buying example we could have create homes, where we generate 3 options A, B and C.
+- Then activate, where we compare each home against the price threshold, in this case home B is filtered out.
+- Then choose the best home, where maybe even though both homes are affordable, C is cheaper than B but also closer to work.
 
-#### Loop 1: Constraint Revision
 
-Buyers may apply budget, commute, or move-in-timeline filters and discover that too few homes remain.
+### Iteration
 
-```text
-Activate feasible homes
-  ↓
-Too few viable options
-  ↓
-Revise thresholds or generate new homes
-```
+![homebuying2](img/homebuying2.png)
 
-The interface should make this visible by showing how many homes are removed by each constraint and which constraints are most restrictive.
+- We can also represent how someone would iterate on a decision.
+- For example, when activating by price, we might start by filtering out homes priced over $1 million.
+- If that leaves us with no available options to choose from, we’d go back and adjust the threshold — say, increasing it to $2 million, until some homes meet the criteria.
+- On the diagram, this looping back is shown with a backward arrow, representing how users revisit and modify decisions
 
-#### Loop 2: Tradeoff Exploration
+### Repeated Decision Types
 
-Buyers may compare price, location, size, commute time, school quality, and renovation effort and realize that their priorities conflict.
+![homebuying3](img/homebuying3.png)
 
-```text
-Compare tradeoffs
-  ↓
-Identify conflict between price and location
-  ↓
-Adjust weights, constraints, or design goals
-```
+- This framework isn’t just about the CREATE → ACTIVATE → CHOOSE pattern.
+- In practice, these tasks can appear in any order or combination
+- For example, we can use repeated tasks to represent different thresholds we are using in the activate decision.
+- One for price and another one for the number of bedrooms.
 
-The interface should support interactive tradeoff exploration rather than forcing users into a fixed ranking.
+### Different Decision Goals
 
-#### Loop 3: Stakeholder Negotiation
+![homebuying4](img/homebuying4.png)
 
-A home may satisfy one household member but fail to satisfy another, such as when budget and neighborhood preferences conflict.
+- We can also change the goal of the decision process
+- In this case the goal is to CREATE.
+- For instance, when a real estate agent prepares a report of homes for their client, they’re generating new information rather than selecting a single option.
 
-```text
-Estimate household satisfaction
-  ↓
-Find disagreement
-  ↓
-Discuss priorities and revise criteria
-```
+### Collaborative Decision-Making
 
-The interface should help buyers see where agreement and disagreement occur.
+![homebuying5](img/homebuying5.png)
+
+- Other configurations can also represent decision-making processes that are collaborative, involving multiple people.
+- For example, when a family is searching for a home together
+- Each member goes through their decision process and shortlists their favorite options, and then they come together to compare and decide on one home to buy.

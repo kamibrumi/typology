@@ -2,7 +2,7 @@
 title: Step 4 - Map diagram
 layout: default
 parent: Designing with the Typology
-nav_order: 5
+nav_order: 6
 ---
 
 # Design Construction
@@ -52,7 +52,7 @@ Participants now sketch an interface that supports the modeled decision workflow
 
 The sketch does not need to be polished. It should show how the tool supports the major decisions from the diagram.
 
-## Homebuying Example
+## Home-buying Example
 Once the decision tasks are identified, they can be mapped to interface components.
 
 | Decision Task | Role in the Homebuying Example | Possible Interface Support |

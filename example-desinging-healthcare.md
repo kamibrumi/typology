@@ -1,12 +1,11 @@
 ---
 title: Designing for Healthcare
 layout: default
-parent: Designing with the Typology
-nav_order: 6
+nav_order: 7
 ---
 
 # Designing for Healthcare
-In a collaboration with the [Visual Computing Group at Harvard University](https://vcg.seas.harvard.edu/) and the Tel Aviv Sourasky Medical Center, we've designed a visualization decision-support system that showcases the impact of grounding the design process in the Typology of Decision-Making Tasks.
+In a collaboration with the [Visual Computing Group at Harvard University](https://vcg.seas.harvard.edu/) and the [Tel Aviv Sourasky Medical Center](https://www.tasmc.org.il/en/), we've designed a visualization decision-support system that showcases the impact of grounding the design process in the Typology of Decision-Making Tasks.
 
 [Link to Paper](https://ieeexplore.ieee.org/document/11278822){: .btn .btn-purple }
 
@@ -28,22 +27,7 @@ The paper describes **EmbryoProfiler** as a semi-automatic, visualization-based 
 
 EmbryoProfiler’s decision process can be represented as:
 
-```text
-Create fertilization status
-→ Activate normally fertilized embryos
-
-Create developmental timings
-→ Activate embryos with acceptable development
-
-Create morphology and fragmentation features
-→ Activate embryos with acceptable morphology
-
-Create blastocyst measures
-→ Activate embryos with favorable blastocyst development
-
-Create ML-driven viability scores
-→ Choose embryo for transfer and embryos to freeze
-```
+![embryoprofiler-diagram](img/embryo-pofiler-diagram.png)
 
 This structure appears directly in the EmbryoProfiler paper’s decision diagram, which organizes the IVF workflow using create, activate, and choose tasks.
 
@@ -91,3 +75,7 @@ EmbryoProfiler demonstrates several design patterns that align with the typology
 * comparison view for final selection.
 
 The system includes dedicated views for fertilization, timings, morphology, blastocyst inspection, and comparison, each aligned with a step in the decision workflow.
+
+![embryoprofiler-interface](img/embryo-profiler-interface.png)
+
+For more details, please see the [full paper](https://ieeexplore.ieee.org/document/11278822).

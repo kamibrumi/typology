@@ -27,7 +27,7 @@ Ask:
 
 Then classify it as **choose**, **activate**, or **create**.
 
-## Homebuying Example
+## Home-buying Example
 The top-level decision is:
 
 > Which home should the buyer choose?

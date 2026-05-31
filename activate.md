@@ -46,26 +46,10 @@ Use an **activate** task when:
 
 <hr>
 
-## Design implications
+## Home-buying Example
 
-**Activate** tasks often require visual support for criteria, filtering, validation, and threshold adjustment.
+In a homebuying scenario, the buyer filters homes by criteria such as budget, commute time, number of bedrooms, school rating, and move-in date.
 
-Useful design patterns include:
+Each home is evaluated independently. A home is returned if it passes the threshold or satisfies the buyer’s constraints. Any number of homes may pass the filter: none, one, many, or all.
 
-- filter panels;
-- sliders;
-- checkboxes;
-- threshold controls;
-- warning indicators;
-- rule editors;
-- validation views;
-- color-coded pass/fail indicators;
-- interactive constraints.
-
-<hr>
-
-## Example
-
-In **EmbryoProfiler**, clinicians repeatedly perform **activate** tasks when filtering embryos. They filter out embryos with abnormal fertilization, stalled development, high fragmentation, asymmetry, or unfavorable blastocyst measures.
-
-These decisions are represented as **activate** tasks because embryos are evaluated against clinical criteria.
+This is an **activate** task because the goal is to identify which homes are acceptable, not to rank every home against every other home.s
