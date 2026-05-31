@@ -1,8 +1,4 @@
----
-title: Tutorial Guidance
-layout: default
-nav_order: 2
----
+
 
 # From Decisions to Designs
 

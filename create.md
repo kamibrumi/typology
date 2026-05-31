@@ -13,7 +13,7 @@ Use **create** when the decision process produces something new.
 
 <hr>
 
-## Typical questions
+## Typical Questions
 
 - What new options can be generated?
 - What new features should be derived?

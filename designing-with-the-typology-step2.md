@@ -7,19 +7,35 @@ nav_order: 3
 
 # Problem Formulation
 ## Step 2: Decompose the Decision
-Ask:
+Participants then interact with the domain expert. In this tutorial, the domain expert may be represented by an LLM using the provided embryologist context file.
 
-> What smaller decisions must happen before the final decision can be made?
+During this stage, participants should ask questions about the decision problem, not the interface.
 
-Make a list of all supporting tasks. You can brainstorm directly going through each decision type and thinking top-down (e.g., what are all the choose/activate/create decisions that need to happen?) or bottom-up (first brainstorm in your own words, later map them to the different types of decisions).
+Good problem-definition questions include:
 
-## Satellite Example
-The final choice depends on several smaller decisions. Stakeholders cannot choose a design directly from the full dataset without first creating, evaluating, and narrowing the design space.
+- What is the main decision you need to make?
+- What smaller decisions happen before the final decision?
+- What information do you look at first?
+- What options are you comparing?
+- What criteria matter?
+- What constraints or thresholds do you use?
+- What makes the decision uncertain?
+- What would make a case require extra review?
+- What output do you need at the end?
+
+Participants should avoid jumping too quickly to questions such as “What chart do you want?” or “What should the dashboard look like?” Those questions belong to the design construction stage.
+
+Classify these intermediate decisions as **choose**, **activate**, or **create**.
+
+The goal is not to force every activity into a perfect category. The goal is to make the reasoning structure visible enough to discuss, revise, and eventually design around.
+
+## Homebuying Example
+The final choice depends on several smaller decisions. Buyers cannot choose a home directly from the full listing set without first creating, evaluating, and narrowing the option space.
 
 A possible subdecisions are:
-- Create candidate designs
+- Create a shortlist of candidate homes
 - Create additional attributes and estimates
-- Filter feasible designs
-- Activate stakeholder-acceptable designs
-- Choose final satellite design
+- Filter feasible homes
+- Activate buyer-acceptable homes
+- Choose final home
 

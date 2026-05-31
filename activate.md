@@ -13,7 +13,7 @@ Use **activate** when each option can be evaluated independently.
 
 <hr>
 
-## Typical questions
+## Typical Questions
 
 - Which options satisfy the criteria?
 - Which embryos should be excluded?

@@ -7,9 +7,9 @@ nav_order: 4
 
 # Problem Formulation
 ## Step 3: Add Information Flow and Iteration
+Once participants have identified the major decisions, they add arrows showing how information moves between them.
 
 Ask:
-
 > What information is passed from one decision to the next?
 
 Use arrows to show flow. 
@@ -17,23 +17,25 @@ Use arrows to show flow.
 * When you think that users might run out of options after doing an activate, then connect the activate decision to a create decision.
 * When users might want to adjust the threshold of an activate decision add a self loop for the activate decision.
 
-## Satellite Example
-The decision process is unlikely to be linear. Stakeholders may discover that no existing design satisfies all constraints, or that the most feasible designs fail to satisfy important stakeholder groups.
+This step helps participants see that decision-support tools are not only about showing data. They also need to support transitions between decision stages.
+
+## Homebuying Example
+The decision process is unlikely to be linear. Buyers may discover that no existing home satisfies all constraints, or that the most feasible homes fail to satisfy important preferences.
 
 This means the interface should support iteration.
 
 For example:
 
 ```text
-Generate designs
+Generate home candidates
   ↓
-Estimate performance
+Estimate affordability and fit
   ↓
 Filter by constraints
   ↓
 Compare tradeoffs
   ↓
-Revise criteria or generate new designs
+Revise criteria or generate new homes
   ↺
 ```
 
@@ -41,26 +43,26 @@ Revise criteria or generate new designs
 
 #### Loop 1: Constraint Revision
 
-Stakeholders may apply budget, timeline, or feasibility filters and discover that too few designs remain.
+Buyers may apply budget, commute, or move-in-timeline filters and discover that too few homes remain.
 
 ```text
-Activate feasible designs
+Activate feasible homes
   ↓
 Too few viable options
   ↓
-Revise thresholds or generate new designs
+Revise thresholds or generate new homes
 ```
 
-The interface should make this visible by showing how many designs are removed by each constraint and which constraints are most restrictive.
+The interface should make this visible by showing how many homes are removed by each constraint and which constraints are most restrictive.
 
 #### Loop 2: Tradeoff Exploration
 
-Stakeholders may compare modularity, load capacity, cost, and life expectancy and realize that their priorities conflict.
+Buyers may compare price, location, size, commute time, school quality, and renovation effort and realize that their priorities conflict.
 
 ```text
 Compare tradeoffs
   ↓
-Identify conflict between modularity and load capacity
+Identify conflict between price and location
   ↓
 Adjust weights, constraints, or design goals
 ```
@@ -69,14 +71,14 @@ The interface should support interactive tradeoff exploration rather than forcin
 
 #### Loop 3: Stakeholder Negotiation
 
-A design may satisfy engineers and scientists but fail to satisfy security agencies or communication specialists.
+A home may satisfy one household member but fail to satisfy another, such as when budget and neighborhood preferences conflict.
 
 ```text
-Estimate stakeholder satisfaction
+Estimate household satisfaction
   ↓
-Find stakeholder disagreement
+Find disagreement
   ↓
 Discuss priorities and revise criteria
 ```
 
-The interface should help stakeholders see where agreement and disagreement occur.
+The interface should help buyers see where agreement and disagreement occur.

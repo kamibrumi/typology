@@ -6,21 +6,36 @@ nav_order: 1
 ---
 
 # Problem Formulation
+The first stage focuses on understanding and structuring the decision-making problem. Participants should resist the urge to immediately design charts, dashboards, or interfaces.
+
+In the double diamond framing, this stage corresponds to moving from a broad, ambiguous situation toward a clearer definition of the decision problem.
+
 ## Step 1: Identify the Top-Level Decision
+Participants begin by reading the scenario brief.
+
+The goal is to understand:
+
+- who the decision-maker is,
+- what decision they need to make,
+- what options or entities are involved,
+- what data is available,
+- what constraints matter,
+- and what makes the decision difficult.
+
 Ask:
 > What is the main decision the user needs to make?
 
 Then classify it as **choose**, **activate**, or **create**.
 
-## Satellite Scenario Example
+## Homebuying Example
 The top-level decision is:
 
-> Which satellite design should the task force select?
+> Which home should the buyer choose?
 
 In the typology, this is a **choose** task.
 
-The users are choosing one final satellite design from a set of candidate designs. The interface therefore needs to support comparison, prioritization, justification, and consensus-building.
+The user is choosing one final home from a set of candidate listings. The interface therefore needs to support comparison, prioritization, justification, and tradeoff reasoning.
 
 ```text
-Choose final satellite design
+Choose final home
 ```

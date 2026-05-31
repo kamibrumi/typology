@@ -1,8 +1,8 @@
----
+<!-- ---
 title: More Examples
 layout: default
 nav_order: 6
----
+--- -->
 
 # More Examples
 
