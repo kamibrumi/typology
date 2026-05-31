@@ -11,7 +11,7 @@ nav_exclude: false
 [Link to Video](https://www.youtube.com/watch?v=CuJLLpPL_LI){: .btn .btn-purple }
 [Link to Paper](https://ieeexplore.ieee.org/document/11010987){: .btn }
 
-<hr>
+---
 
 Visualization systems are often designed to help people make decisions: selecting a treatment, choosing a design, identifying risk, prioritizing resources, or deciding what to do next. Yet many visualization task taxonomies describe low-level analytical activities, such as filtering, searching, comparing, or deriving values, rather than the higher-level decision processes that those activities support.
 

@@ -16,7 +16,7 @@ The original typology paper presents four case studies: **Homefinder Revisited**
 
 ## Case Study: Homefinder Revisited
 
-**Homefinder Revisited** introduces ReACH, a visual analytics system that helps users find ideal homes. Users provide information such as daily routes, activities, and preferences. The system then generates possible homes based on reachability, proximity to amenities, and user-specified criteria.
+[Homefinder Revisited](https://dl.acm.org/doi/10.1145/3173574.3173821) introduces ReACH, a visual analytics system that helps users find ideal homes. Users provide information such as daily routes, activities, and preferences. The system then generates possible homes based on reachability, proximity to amenities, and user-specified criteria.
 
 ![homefinder](img/homefinder.png)
 
@@ -40,7 +40,7 @@ ReACH also adds an intermediate wishlist step, showing how users may iteratively
 
 ## Case Study: Umbra
 
-**Umbra** is a visual analytics tool for sanitizing sensitive datasets. It helps analysts reduce privacy risks while preserving the usefulness of the data. The system can identify potential risks, suggest sanitization actions, and simulate attacks.
+[Umbra](https://ieeexplore.ieee.org/document/9258413) is a visual analytics tool for sanitizing sensitive datasets. It helps analysts reduce privacy risks while preserving the usefulness of the data. The system can identify potential risks, suggest sanitization actions, and simulate attacks.
 
 ![umbra](img/umbra.png)
 
@@ -91,7 +91,7 @@ Umbra differs from Homefinder because the number of possible options is not fixe
 <hr>
 
 ## Case Study: Centaurus
-**Centaurus** supports users in evaluating the truthfulness of claims by analyzing related news articles. Users are given a claim, such as a tweet, along with a mixture of trustworthy and untrustworthy articles. They use the system to explore articles, extract relevant information, and assess article trustworthiness.
+[Centaurus](https://vtechworks.lib.vt.edu/items/9f52febe-b99a-4857-80c8-9e8bef51c2b8) supports users in evaluating the truthfulness of claims by analyzing related news articles. Users are given a claim, such as a tweet, along with a mixture of trustworthy and untrustworthy articles. They use the system to explore articles, extract relevant information, and assess article trustworthiness.
 
 ![centaurus](img/centaurus.png)
 
@@ -132,7 +132,7 @@ Centaurus shows how the typology can reveal similarities between tools from very
 <hr>
 
 ## Case Study: WireVis
-WireVis is a visual analytics system for exploring large collections of financial wire transactions. It helps analysts detect suspicious activity, such as fraud or money laundering, by examining transaction attributes including keywords, amounts, dates, and account relationships.
+[WireVis](https://ieeexplore.ieee.org/abstract/document/4389009?casa_token=5GE_AuGKblUAAAAA:KhB09LMU920GqaDndYWLWeG_balHMD2UOCPDg3enqG_CfWvZOtCjd9g7ipk2svdhNuva7wM) is a visual analytics system for exploring large collections of financial wire transactions. It helps analysts detect suspicious activity, such as fraud or money laundering, by examining transaction attributes including keywords, amounts, dates, and account relationships.
 
 ![wirevis](img/wirevis.png)
 

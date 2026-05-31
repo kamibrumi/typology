@@ -5,6 +5,9 @@ nav_order: 2
 ---
 
 # Tutorial Walkthrough
+[Link to Tutorial Proposal](files/tutorial-crc.pdf){: .btn .btn-purple }
+
+---
 
 This tutorial guides participants through a decision-support design process using the **Typology of Decision-Making Tasks**. The goal is to move from an open-ended domain scenario to a structured decision model, and then from that model to a visualization design.
 
@@ -21,82 +24,32 @@ Participants should not begin by sketching dashboards. The first goal is to unde
 
 ## Overview of the Tutorial Flow
 
-Participants will move through the tutorial in two main stages.
+Participants will work through a shared scenario and move through a sequence of steps that take them from problem formulation to prototype design. The tutorial is organized into two main sessions of 90 minutes each, separated by a 30-minute break.
 
-| Stage | Double Diamond Phase | Main Question | Main Output |
-| --- | --- | --- | --- |
-| **Stage 1: Problem Definition** | Define the problem | What decision is being made, and what smaller decisions support it? | A decision diagram using choose, activate, and create |
-| **Stage 2: Design Construction** | Construct the solution | How can the decision diagram guide the design of a visualization decision-support tool? | A visualization/interface sketch |
+### Scenario
 
-The decision diagram acts as the bridge between the two stages. It is not just a representation of the problem; it becomes a blueprint for design.
+The session begins with the [scenario](designing-with-the-typology-embryo-scenario.html) that participants will use throughout the tutorial.
 
----
+### Session 1: Modeling Decisions with the Typology
 
-# What Participants Should Leave With
+1. [Step 1 - Identify Goal](designing-with-the-typology-step1.html)
+1. [Step 2 - Decompose](designing-with-the-typology-step2.html)
+1. [Step 3 - Define Dependencies](designing-with-the-typology-step3.html)
+1. [Problem Formulation Discussion](problem-formulation-discussion.html)
 
-By the end of the tutorial, participants should have:
+This session focuses on moving from an open-ended scenario to a decision diagram built with choose, activate, and create.
 
-- practiced interviewing a domain expert,
-- identified a top-level decision,
-- decomposed the decision into choose, activate, and create tasks,
-- represented hierarchy, information flow, and iteration,
-- used a decision diagram as a design blueprint,
-- sketched a visualization decision-support tool,
-- and reflected on how problem definition shapes design construction.
+### Break
 
-The central takeaway is:
+The two sessions are separated by a 30-minute break.
 
-> A decision-support visualization should not begin with a chart type. It should begin with a clear model of the decision being supported.
+### Session 2: Designing with the Typology
 
----
+1. [Step 4 - Map diagram](designing-with-the-typology-step4.html)
+1. [Step 5 - Reflection](designing-with-the-typology-step5.html)
+1. [Design Construction Discussion](design-construction-discussion.html)
 
-## Suggested Tutorial Artifacts
+This session focuses on translating the decision diagram into a prototype design.
 
-Participants may produce the following artifacts:
+The decision diagram acts as the bridge between the two sessions. It is not just a representation of the problem; it becomes a blueprint for design.
 
-| Artifact | Stage | Purpose |
-| --- | --- | --- |
-| Domain interview notes | Problem definition | Capture what the expert says about decisions, criteria, and uncertainty |
-| Decision diagram | Problem definition | Represent the decision workflow using the typology |
-| Design mapping table | Bridge between stages | Connect decision tasks to possible interface components |
-| Interface sketch | Design construction | Show how the tool supports the decision workflow |
-| Reflection notes | Both stages | Document assumptions, tradeoffs, and open questions |
-
----
-
-## A Simple Participant Checklist
-
-Before moving from problem definition to design, participants should be able to answer:
-
-- What is the final decision?
-- Is it choose, activate, or create?
-- What are the main supporting decisions?
-- What information flows between them?
-- Where are the loops?
-- Where is uncertainty?
-- What needs to remain human judgment?
-
-Before finishing the design construction stage, participants should be able to answer:
-
-- Which interface component supports each decision?
-- How does the user move through the decision workflow?
-- How can the user compare options?
-- How can the user apply criteria or constraints?
-- How can the user create or document a rationale?
-- How does the interface support iteration?
-- How does the design avoid over-automation?
-
----
-
-## Optional Extension: Using an LLM as the Domain Expert
-
-If participants use the provided LLM context file, they should treat the LLM as a simulated domain expert, not as an authority on clinical practice.
-
-During the problem definition stage, participants should ask the LLM about workflow, decision criteria, uncertainty, and constraints.
-
-During the design construction stage, participants may ask the LLM about visualization preferences, interaction needs, and what would make a tool helpful or misleading.
-
-The key is to keep the two stages separate:
-
-- first, understand the decision problem;
-- then, design the visualization support.
