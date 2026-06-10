@@ -30,11 +30,11 @@ The top-level CHOOSE task can be decomposed into several supporting decision tas
 
 First, the system helps users CREATE candidate homes based on their routes, activities, and preferences. Then, users ACTIVATE homes that satisfy their search criteria, such as reachability, location, or other preferences. Users may then ACTIVATE a smaller set of homes by adding them to a wishlist. Finally, they CHOOSE the best home from that refined set.
 
-### Why This Case Matters
+<!-- ### Why This Case Matters
 
 This case represents a familiar multi-criteria decision-making pattern (CREATE → ACTIVATE → CHOOSE).
 
-ReACH also adds an intermediate wishlist step, showing how users may iteratively refine and manage candidate options before making a final choice.
+ReACH also adds an intermediate wishlist step, showing how users may iteratively refine and manage candidate options before making a final choice. -->
 
 <hr>
 
@@ -84,9 +84,9 @@ In support of CREATE (train and test attacker model)
 → CHOOSE testing data
 ```
 
-### Why This Case Matters
+<!-- ### Why This Case Matters
 
-Umbra differs from Homefinder because the number of possible options is not fixed. The system can generate many possible sanitization schemes, so the central decision is not simply choosing from a finite list. Instead, the analyst iteratively creates, evaluates, and refines schemes until one is acceptable.
+Umbra differs from Homefinder because the number of possible options is not fixed. The system can generate many possible sanitization schemes, so the central decision is not simply choosing from a finite list. Instead, the analyst iteratively creates, evaluates, and refines schemes until one is acceptable. -->
 
 <hr>
 
@@ -125,9 +125,9 @@ Level 3:
 
 Users may manually CREATE keywords or terms, which are then used to ACTIVATE relevant articles.
 
-### Why This Case Matters
+<!-- ### Why This Case Matters
 
-Centaurus shows how the typology can reveal similarities between tools from very different domains. Although Centaurus focuses on article trustworthiness and Umbra focuses on data sanitization, both involve a similar pattern of creating inputs, activating relevant candidates, choosing items for deeper inspection, and evaluating acceptability.
+Centaurus shows how the typology can reveal similarities between tools from very different domains. Although Centaurus focuses on article trustworthiness and Umbra focuses on data sanitization, both involve a similar pattern of creating inputs, activating relevant candidates, choosing items for deeper inspection, and evaluating acceptability. -->
 
 <hr>
 
@@ -158,6 +158,6 @@ Level 2:
 
 First, the analyst CHOOSES a promising account to investigate. Then, they ACTIVATE transactions that appear plausible or relevant to suspicious behavior. Next, they ACTIVATE whether those transactions indicate some degree of fraud. Finally, the analyst may CREATE a new fraud pattern by synthesizing the evidence gathered through the system.
 
-### Why This Case Matters
+<!-- ### Why This Case Matters
 
-WireVis shows that the root decision in a decision-support tool does not always have to be CHOOSE or ACTIVATE. Sometimes the main goal is to CREATE a new insight, explanation, or pattern. In this case, the analyst is not only selecting suspicious transactions; they are constructing a new understanding of how fraud may be occurring.
+WireVis shows that the root decision in a decision-support tool does not always have to be CHOOSE or ACTIVATE. Sometimes the main goal is to CREATE a new insight, explanation, or pattern. In this case, the analyst is not only selecting suspicious transactions; they are constructing a new understanding of how fraud may be occurring. -->

@@ -29,7 +29,7 @@ A decision diagram can therefore become a blueprint for visualization design.
 
 ## Diagramming Decision Problems
 
-Decision problems can be represented as node-link diagrams:
+Decision problems can be represented as node-link diagrams. Here is a wildfire evacuation example:
 
 ![composition-example](img/wildfire-example.png)
 

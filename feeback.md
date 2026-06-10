@@ -5,4 +5,6 @@ nav_order: 8
 ---
 
 # Leave some Feedback!
-Will prep for other tutorials (VIS'26!!), any feedback will be appreciated!
+I would love to hear your feedback on the tutorial, especially how the Typology of Decision-Making Tasks could be improved, clarified, or applied in your own visualization design work. Please fill out this form.
+
+[https://forms.gle/3652KVG4xJpNZFMGA](https://forms.gle/3652KVG4xJpNZFMGA)
