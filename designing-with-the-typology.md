@@ -28,6 +28,7 @@ Designing with the typology is split into problem formulation and design constru
 <!-- In the study described in *The Power of Typologies in Visualization Design*, participants using the task-specific decision-making typology were able to construct problem representations directly within the typology, reason about loops and dependencies, and carry that structure into interface design. -->
 
 ## Problem Formulation
+### Step 0: Join the Miro Board!
 ### Step 1: Identify the Top-Level Decision
 ### Step 2: Decompose the Decision
 ### Step 3: Add Information Flow and Iteration

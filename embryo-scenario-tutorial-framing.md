@@ -1,10 +1,3 @@
----
-title: Tutorial Framing
-layout: default
-parent: Embryo Selection Scenario
-nav_order: 6
----
-
 ## Tutorial Framing
 
 This scenario can help participants practice using the typology during the [Double-Diamond Design Methodology](https://www.thefountaininstitute.com/blog/what-is-the-double-diamond-design-process) stages: the problem definition, the design construction, and the transition between the two stages.
