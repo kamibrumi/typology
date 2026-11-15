@@ -1,7 +1,7 @@
 ---
 title: Step 4 - Map diagram
 layout: default
-parent: Tutorial EuroVIS 2025
+parent: Tutorial EuroVIS 2026
 grand_parent: Tutorial
 nav_order: 6
 ---

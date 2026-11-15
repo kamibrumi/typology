@@ -2,7 +2,7 @@
 title: Design Challenge
 layout: default
 parent: Embryo Selection Scenario
-grand_parent: Tutorial EuroVIS 2025
+grand_parent: Tutorial EuroVIS 2026
 nav_order: 2
 ---
 

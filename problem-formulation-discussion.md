@@ -1,7 +1,7 @@
 ---
 title: Problem Formulation Discussion
 layout: default
-parent: Tutorial EuroVIS 2025
+parent: Tutorial EuroVIS 2026
 grand_parent: Tutorial
 nav_order: 5
 ---

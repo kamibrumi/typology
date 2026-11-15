@@ -1,7 +1,7 @@
 ---
 title: Step 0 - Join the Miro Board
 layout: default
-parent: Tutorial EuroVIS 2025
+parent: Tutorial EuroVIS 2026
 grand_parent: Tutorial
 nav_order: 0
 ---

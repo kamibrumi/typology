@@ -2,7 +2,7 @@
 title: Available Input Data
 layout: default
 parent: Embryo Selection Scenario
-grand_parent: Tutorial EuroVIS 2025
+grand_parent: Tutorial EuroVIS 2026
 nav_order: 3
 ---
 

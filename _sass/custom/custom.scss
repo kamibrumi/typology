@@ -1,0 +1,41 @@
+// Page previews for downloadable tutorial handouts
+.sheet-previews {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 1.25rem;
+
+  &.landscape {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  }
+
+  figure {
+    margin: 0;
+  }
+
+  a {
+    display: block;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid $border-color;
+    border-radius: 4px;
+    transition: box-shadow 0.15s ease;
+
+    &:hover,
+    &:focus {
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    }
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  figcaption {
+    margin-top: 0.35rem;
+    font-size: 0.8rem;
+    color: $grey-dk-000;
+  }
+}

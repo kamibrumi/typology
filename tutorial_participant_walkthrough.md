@@ -1,12 +1,12 @@
 ---
-title: Tutorial EuroVIS 2025
+title: Tutorial EuroVIS 2026
 layout: default
 parent: Tutorial
 nav_order: 1
 has_toc: false
 ---
 
-# Tutorial EuroVIS 2025
+# Tutorial EuroVIS 2026
 [Link to Tutorial Proposal](files/tutorial-crc.pdf){: .btn .btn-purple }
 
 ---
