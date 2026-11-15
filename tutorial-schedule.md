@@ -1,7 +1,8 @@
 ---
 title: Tutorial Schedule
 layout: default
-nav_order: 8
+parent: Tutorial
+nav_order: 3
 ---
 
 # Tutorial Schedule

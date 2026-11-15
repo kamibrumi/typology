@@ -2,6 +2,7 @@
 title: Available Analytical Tools
 layout: default
 parent: Embryo Selection Scenario
+grand_parent: Tutorial EuroVIS 2025
 nav_order: 4
 ---
 

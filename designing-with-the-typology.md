@@ -1,7 +1,8 @@
 ---
 title: Designing with the Typology
 layout: default
-nav_order: 6
+parent: Tutorial
+nav_order: 2
 ---
 
 # Designing with the Typology

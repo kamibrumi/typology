@@ -1,7 +1,8 @@
 ---
 title: Step 1 - Identify Goal
 layout: default
-parent: Designing with the Typology
+parent: Tutorial EuroVIS 2025
+grand_parent: Tutorial
 nav_order: 1
 ---
 

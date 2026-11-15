@@ -1,7 +1,7 @@
 ---
 title: Contact Us
 layout: default
-nav_order: 9
+nav_order: 10
 ---
 
 # Instructor Information & Contact

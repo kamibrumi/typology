@@ -1,10 +1,12 @@
 ---
-title: Tutorial Walkthrough
+title: Tutorial EuroVIS 2025
 layout: default
-nav_order: 2
+parent: Tutorial
+nav_order: 1
+has_toc: false
 ---
 
-# Tutorial Walkthrough
+# Tutorial EuroVIS 2025
 [Link to Tutorial Proposal](files/tutorial-crc.pdf){: .btn .btn-purple }
 
 ---

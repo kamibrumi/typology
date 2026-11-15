@@ -1,7 +1,8 @@
 ---
 title: Step 4 - Map diagram
 layout: default
-parent: Designing with the Typology
+parent: Tutorial EuroVIS 2025
+grand_parent: Tutorial
 nav_order: 6
 ---
 

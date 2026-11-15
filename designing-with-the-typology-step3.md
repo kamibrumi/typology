@@ -1,7 +1,8 @@
 ---
 title: Step 3 - Define dependencies
 layout: default
-parent: Designing with the Typology
+parent: Tutorial EuroVIS 2025
+grand_parent: Tutorial
 nav_order: 4
 ---
 
